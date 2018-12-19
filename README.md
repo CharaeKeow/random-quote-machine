@@ -3,11 +3,11 @@
 
 The objective is to create a web page that shows random quote each time it loads, with functionality to get a new quote and share the quote to Twitter. Here are the user stories that needs to be fulfilled to pass the test: 
 
-- [ ] Wrapper element with corresponding `id="quote-box"`.
-- [ ] Within `#quote-box`, an element with a corresponding `id="text"`.
-- [ ] Within `#quote-box`, an element with a corresponding `id="author"`.
-- [ ] Within `#quote-box`, a clickable element with a corresponding `id="new-quote"`.
-- [ ] Within `#quote-box`, a clickable element with a corresponding `id="tweet-quote"`.
+- [X] Wrapper element with corresponding `id="quote-box"`.
+- [X] Within `#quote-box`, an element with a corresponding `id="text"`.
+- [X] Within `#quote-box`, an element with a corresponding `id="author"`.
+- [X] Within `#quote-box`, a clickable element with a corresponding `id="new-quote"`.
+- [X] Within `#quote-box`, a clickable element with a corresponding `id="tweet-quote"`.
 - [ ] On first load, quote machine displays a random quote in the element with `id="text"`. 
 - [ ] On first load, quote machine displays a random quote's author in the element with `id="author"`.
 - [ ] When the `#new-quote` button is clicked, the quote machine fetch a new quote and display it in the `#text` element.
