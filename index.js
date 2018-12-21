@@ -1,6 +1,6 @@
 const quoteLists = [
   {
-  quotes: "Life isn’t about getting and having, it’s about giving and being.""Kevin Kruse",
+  quotes: "Life isn’t about getting and having, it’s about giving and being.",
   author: "Kevin Kruse"
   },
   {
@@ -8,7 +8,7 @@ const quoteLists = [
   author: "Napoleon Hill"
   },
   {
-  quotes: "Strive not to be a success, but rather to be of value.","I attribute my success to this: I never gave or took any excuse."
+  quotes: "Strive not to be a success, but rather to be of value.",
   author: "Albert Einstein"
   },
   {
@@ -20,8 +20,7 @@ const quoteLists = [
   author: "Wayne Gretzky",
   },
   {
-  quotes: "I’ve missed more than 9000 shots in my career. I’ve lost almost 300 games. 26 times I’ve been trusted 
-  to take the game winning shot and missed. I’ve failed over and over and over again in my life. And that is why I succeed.",
+  quotes: "I’ve missed more than 9000 shots in my career. I’ve lost almost 300 games. 26 times I’ve been trusted to take the game winning shot and missed. I’ve failed over and over and over again in my life. And that is why I succeed.",
   author: "Michael Jordan"
   },
   {
@@ -37,8 +36,7 @@ const quoteLists = [
   author: "Earl Nightingale"
   },
   {
-  quotes: "Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do,
-  so throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails.  Explore, Dream, Discover.",
+  quotes: "Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do, so throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails.  Explore, Dream, Discover.",
   author: "Mark Twain"
   },
   {
@@ -82,8 +80,7 @@ const quoteLists = [
   author: "Christopher Columbus"
   },
   {
-  quotes: "I’ve learned that people will forget what you said, people will forget what you did, but 
-  people will never forget how you made them feel.",
+  quotes: "I’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
   author: "Maya Angelou"
   },
   {
@@ -91,7 +88,7 @@ const quoteLists = [
   author: "Jim Rohn"
   },
   {
-  quotes: "Whether you think you can or you think you can’t, you’re right.,
+  quotes: "Whether you think you can or you think you can’t, you’re right.",
   author: "Henry Ford"
   },
   {
@@ -131,22 +128,19 @@ const quoteLists = [
   author: "Henry David Thoreau"
   },
   {
-  quotes: "When I stand before God at the end of my life, I would hope that I would not 
-  have a single bit of talent left and could say, I used everything you gave me.",
+  quotes: "When I stand before God at the end of my life, I would hope that I would not have a single bit of talent left and could say, I used everything you gave me.",
   author: "Erma Bombeck"
   },
   {
-  quotes: “Nobody ever figures out what life is all about, and it doesn't matter. 
-  Explore the world. Nearly everything is really interesting if you go into it deeply enough.”,
+  quotes: "Nobody ever figures out what life is all about, and it doesn't matter. Explore the world. Nearly everything is really interesting if you go into it deeply enough.",
   author: "Richard P. Feynman"
   },
   {
-  quotes: “You have no responsibility to live up to what other people think you ought to accomplish. 
-  I have no responsibility to be like they expect me to be. It's their mistake, not my failing.”,
+  quotes: "You have no responsibility to live up to what other people think you ought to accomplish.I have no responsibility to be like they expect me to be. It's their mistake, not my failing.",
   author: "Richard P. Feynman"
   },
   {
-  quotes: “I'm smart enough to know that I'm dumb.”,
+  quotes: "I'm smart enough to know that I'm dumb.",
   author: "Richard Feynman"
   },
   {
@@ -170,14 +164,11 @@ const quoteLists = [
   author: "Maimonides"
   },
   {
-  quotes: "When I was 5 years old, my mother always told me that happiness was the key to life.  When I went to school, 
-  they asked me what I wanted to be when I grew up.  I wrote down ‘happy’.  They told me I didn’t understand the 
-  assignment, and I told them they didn’t understand life.",
+  quotes: "When I was 5 years old, my mother always told me that happiness was the key to life.  When I went to school, they asked me what I wanted to be when I grew up.  I wrote down ‘happy’.  They told me I didn’t understand the   assignment, and I told them they didn’t understand life.",
   author: "John Lennon"
   },
   {
-  quotes: "When one door of happiness closes, another opens, but often we look so long at the closed door that we 
-  do not see the one that has been opened for us.",
+  quotes: "When one door of happiness closes, another opens, but often we look so long at the closed door that we do not see the one that has been opened for us.",
   author: "Helen Keller"
   },
   {
@@ -229,8 +220,7 @@ const quoteLists = [
   author: "Joshua J. Marine"
   },
   {
-  quotes: "I have been impressed with the urgency of doing. Knowing is not enough; we must apply. 
-  Being willing is not enough; we must do.",
+  quotes: "I have been impressed with the urgency of doing. Knowing is not enough; we must apply. Being willing is not enough; we must do.",
   author: "Leonardo da Vinci"
   },
   {
@@ -238,70 +228,68 @@ const quoteLists = [
   author: "Jamie Paolinetti"
   },
   {
-  quotes: “So many books, so little time.” ,
+  quotes: "So many books, so little time.",
   author: "Frank Zappa"
   },
   {
-  quotes: “Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.” ,
+  quotes: "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.",
   author: "Bernard M. Baruch"
 
   },
   {
-  quotes: “Be the change that you wish to see in the world.”,
+  quotes: "Be the change that you wish to see in the world.",
   author: "Mahatma Gandhi"
   },
   {
-  quotes: “In three words I can sum up everything I've learned about life: it goes on.” ,
+  quotes: "In three words I can sum up everything I've learned about life: it goes on." ,
   author: "Robert Frost"
   },
   {
-  quotes: “To live is the rarest thing in the world. Most people exist, that is all.” ,
+  quotes: "To live is the rarest thing in the world. Most people exist, that is all." ,
   author: "Oscar Wilde"
   },
   {
-  quotes: “Live as if you were to die tomorrow. Learn as if you were to live forever.”,
+  quotes: "Live as if you were to die tomorrow. Learn as if you were to live forever.",
   author: "Mahatma Gandhi"
   },
   {
-  quotes: “Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.” ,
+  quotes: "Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that." ,
   author: "Martin Luther King Jr."
   },
   {
-  quotes: “To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.”,
+  quotes: "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
   author: "Ralph Waldo Emerson"
   },
   {
-  quotes: “It is better to be hated for what you are than to be loved for what you are not.” ,
+  quotes: "It is better to be hated for what you are than to be loved for what you are not." ,
   author: "Andre Gide"
   },
   {
-  quotes: “There are only two ways to live your life. One is as though nothing is a miracle. 
-  The other is as though everything is a miracle.” ,
+  quotes: "There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle." ,
   author: "Albert Einstein"
   },
   {
-  quotes: “It is better to remain silent at the risk of being thought a fool, than to talk and remove all doubt of it.”,
+  quotes: "It is better to remain silent at the risk of being thought a fool, than to talk and remove all doubt of it.",
   author: "Maurice Switzer"
   },
   {
-  quotes: “The fool doth think he is wise, but the wise man knows himself to be a fool.”,
+  quotes: "The fool doth think he is wise, but the wise man knows himself to be a fool.",
   author: "William Shakespeare"
   },
   {
-  quotes: “Whenever you find yourself on the side of the majority, it is time to reform (or pause and reflect).”,
+  quotes: "Whenever you find yourself on the side of the majority, it is time to reform (or pause and reflect).",
   author: "Mark Twain"
   },
   {
-  quotes: “Fairy tales are more than true: not because they tell us that dragons exist, but because they tell us 
-  that dragons can be beaten.”,
+  quotes: "Fairy tales are more than true: not because they tell us that dragons exist, but because they tell us that dragons can be beaten.",
   author: "Neil Gaiman"
   },
   {
-  quotes: “A woman is like a tea bag; you never know how strong it is until it's in hot water.”,
+  quotes: "A woman is like a tea bag; you never know how strong it is until it's in hot water.",
   author: "Eleanor Roosevelt"
   },
   {
-  quotes: “Outside of a dog, a book is man's best friend. Inside of a dog it's too dark to read.”,
+  quotes: "Outside of a dog, a book is man's best friend. Inside of a dog it's too dark to read.",
   author: "Groucho Marx"
   },
   {
@@ -345,8 +333,7 @@ const quoteLists = [
   author: "Confucius"
   },
   {
-  quotes: "If you look at what you have in life, you’ll always have more.
-  If you look at what you don’t have in life, you’ll never have enough.",
+  quotes: "If you look at what you have in life, you’ll always have more. If you look at what you don’t have in life, you’ll never have enough.",
   author: "Oprah Winfrey"
   },
   {
@@ -354,8 +341,7 @@ const quoteLists = [
   author: " Albert Einstein"
   },
   {
-  quotes: "What’s money? A man is a success if he gets up in the morning 
-  and goes to bed at night and in between does what he wants to do.",
+  quotes: "What’s money? A man is a success if he gets up in the morning and goes to bed at night and in between does what he wants to do.",
   author: "Bob Dylan"
   },
   {
