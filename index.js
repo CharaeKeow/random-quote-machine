@@ -310,7 +310,7 @@ const quoteLists = [
   },
   {
   quotes: "It’s not the years in your life that count. It’s the life in your years.",
-  author: "Abraham Lincoln
+  author: "Abraham Lincoln"
   },
   {
   quotes: "If you do what you’ve always done, you’ll get what you’ve always gotten.",
@@ -354,6 +354,6 @@ const quoteLists = [
   },
   {
   quotes: "I think it is possible for ordinary people to choose to be extraordinary.",
-  author: "Elon Musk
+  author: "Elon Musk"
   },
 ]
