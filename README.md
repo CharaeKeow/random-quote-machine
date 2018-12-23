@@ -25,3 +25,4 @@ add more quotes once I learn Json, AJAX and API - which seems rather complex now
 Anyway, the next implementation is the onClick function, which fetch a new quote once the button is clicked. I think I will need to modify
 the code a little bit for a better flow (whatever that means). 
 
+![First Load Image](https://github.com/CharaeKeow/random-quote-machine/blob/first-load/ssss.PNG)
