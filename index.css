@@ -1,0 +1,60 @@
+#quote-box {
+  width: 700px;
+  border: 1px solid;
+  margin: auto;
+  margin-top: 1%;
+  border-radius: 5px;
+  padding: 3px;
+  text-align: center;
+  
+  #text {
+    font-size: 35px;
+  }
+  
+  #author {
+    font-size: 35px;
+  }
+}
+
+.quote-author {  
+  padding: 7px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+  border: 0px solid;
+  width: 250px;
+  margin: auto;
+}
+
+button {  
+  display: block;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+#tweet-quote {
+  border: none;
+  background: none;
+  font-size: 30px;
+  color: #00d4ff;
+}
+
+#facebook-quote {
+  border: none;
+  background: none;
+  color: #0321c6;
+  font-size: 30px;
+}
+
+#new-quote {
+  color: #fff;
+  background-color: #0272e2;
+  height: 40px;
+  margin-top: 5px; 
+}
