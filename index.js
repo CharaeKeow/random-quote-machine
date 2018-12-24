@@ -381,14 +381,8 @@ class QuoteMachine extends React.Component {
     });  
   }
   
-  newQuote() {    
-    this.onLoad();
-  }
-  
-    
   render() {
-    let tweetQuote = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent('"' + this.state.currentQuote + '" - ' + this.state.currentAuthor);    
-    
+        
     return(
       <div id='quote-box'>
         <div className='quote-author'>
@@ -412,7 +406,7 @@ class QuoteMachine extends React.Component {
           <button id='facebook-quote'>
             <i class="fab fa-facebook-square"></i>
           </button>            
-          <button id='new-quote'  onClick={newQuote}>New Quote</button>
+          <button id='new-quote'  onClick={/* TODO */}>New Quote</button>
         </div>
       </div>
     );
