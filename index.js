@@ -390,30 +390,30 @@ class QuoteMachine extends React.Component {
     let tweetQuote = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent('"' + this.state.currentQuote + '" - ' + this.state.currentAuthor);    
     
     return(
-      <div id='quote-box'>
-        <div className='quote-author'>
-          <div id='text'>
-            <h3>
-              "{this.state.currentQuote}"
-            </h3>
+      <div>
+        <div id='quote-box'>
+          <div className='quote-author'>
+            <div id='text'>
+              <h3>
+                "{this.state.currentQuote}"
+              </h3>
+            </div>
+            <div id='author'>
+              <h6>
+                {this.state.currentAuthor}
+              </h6>
+            </div>
           </div>
-          <div id='author'>
-            <h6>
-              {this.state.currentAuthor}
-            </h6>
+          <div className='button'>
+            <button id='tweet-quote'>
+              <a id='tweet-quote' href={tweetQuote} target='_blank>
+                <i class="fab fa-twitter"></i>
+              </a>
+            </button>                  
+            <button id='new-quote'  onClick={newQuote}>New Quote</button>
           </div>
         </div>
-        <div className='button'>
-          <button id='tweet-quote'>
-            <a id='tweet-quote' href={tweetQuote}>
-              <i class="fab fa-twitter"></i>
-            </a>
-          </button>
-          <button id='facebook-quote'>
-            <i class="fab fa-facebook-square"></i>
-          </button>            
-          <button id='new-quote'  onClick={newQuote}>New Quote</button>
-        </div>
+        <footer><span>Coded and design by charae.keow</span></footer>
       </div>
     );
   }    
