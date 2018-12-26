@@ -29,4 +29,8 @@ the code a little bit for a better flow (whatever that means).
 
 ## Get New Quote Method 
 
--- TODO --
+-- TO DO --
+
+## Tweet Quote
+
+-- TO DO --
