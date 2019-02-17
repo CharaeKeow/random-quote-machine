@@ -1,23 +1,5 @@
-class QuoteMachine extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      currQuote: '',
-      currAuthor: '',            
-    }
-    
-    this.newQuote = this.newQuote.bind(this);    
-    this.onLoad = this.onLoad.bind(this);
-  }  
-  
-  componentDidMount(){
-    this.onLoad();
-  }
-  
-  onLoad() {
-    onLoad() {
-    let quoteList = [
-       {
+const quoteLists = [
+  {
   quotes: "Life isn’t about getting and having, it’s about giving and being.",
   author: "Kevin Kruse"
   },
@@ -252,6 +234,7 @@ class QuoteMachine extends React.Component {
   {
   quotes: "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.",
   author: "Bernard M. Baruch"
+
   },
   {
   quotes: "Be the change that you wish to see in the world.",
@@ -373,53 +356,4 @@ class QuoteMachine extends React.Component {
   quotes: "I think it is possible for ordinary people to choose to be extraordinary.",
   author: "Elon Musk"
   },
-    ];
-    let index = Math.floor(Math.random() * quoteList.length);
-    this.setState({
-      currentQuote: quoteList[index].quotes,
-      currentAuthor: quoteList[index].author
-    });  
-  }
-  
-  newQuote() {    
-    this.onLoad();
-  }
-  
-    
-  render() {
-    let tweetQuote = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent('"' + this.state.currentQuote + '" - ' + this.state.currentAuthor);    
-    
-    return(
-      <div>
-        <div id='quote-box'>
-          <div className='quote-author'>
-            <div id='text'>
-              <h3>
-                "{this.state.currentQuote}"
-              </h3>
-            </div>
-            <div id='author'>
-              <h6>
-                {this.state.currentAuthor}
-              </h6>
-            </div>
-          </div>
-          <div className='button'>
-            <button id='tweet-quote'>
-              <a id='tweet-quote' href={tweetQuote} target='_blank>
-                <i class="fab fa-twitter"></i>
-              </a>
-            </button>                  
-            <button id='new-quote'  onClick={newQuote}>New Quote</button>
-          </div>
-        </div>
-        <footer><span>Coded and design by charae.keow</span></footer>
-      </div>
-    );
-  }    
-}
-
-ReactDOM.render(
-  <QuoteMachine />,
-  document.getElementById('root')
-)
+]
